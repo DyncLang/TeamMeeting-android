@@ -6,14 +6,14 @@
     android:gravity="center"
     android:orientation="vertical" >
 
-    <org.dync.teammeeting.ui.BottomMenu
+    <org.dync.teameeting.ui.BottomMenu
         android:id="@+id/bottomMenu"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:tag="580" >
 
         <include layout="@layout/menu_setting" />
-    </org.dync.teammeeting.ui.BottomMenu>
+    </org.dync.teameeting.ui.BottomMenu>
 
     <TextView
         android:id="@+id/tv_close"

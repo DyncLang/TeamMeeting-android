@@ -4,28 +4,23 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
- 	 <RelativeLayout 
- 	    android:id="@+id/rl_chat_topbar"
-        style="@style/TopBar_Style" 
+    <RelativeLayout
+        android:id="@+id/rl_chat_topbar"
+        style="@style/TopBar_Style"
         android:layout_height="@dimen/height_top_bar"
-        android:background="@color/black_gray"
         android:alpha="0.8"
-       	>
-       	
-	      	 <ImageButton 
-	            android:id="@+id/imgbtn_back"
-	            style="@style/Btn_left"
-	            android:src="@drawable/popup_close"
-	            />
-           
+        android:background="@color/black_gray" >
 
-	          <TextView
-	            style="@style/Title_Txt"
-	            android:text="@string/str_chat"
-	            android:textColor="#ffffff"
-	            android:textStyle="normal"
-	            />
-	           
+        <ImageButton
+            android:id="@+id/imgbtn_back"
+            style="@style/Btn_left"
+            android:src="@drawable/popup_close" />
+
+        <TextView
+            style="@style/Title_Txt"
+            android:text="@string/str_chat"
+            android:textColor="#ffffff"
+            android:textStyle="normal" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -51,9 +46,9 @@
             android:layout_centerVertical="true"
             android:layout_toLeftOf="@id/btn_chat_send"
             android:background="@null"
-            android:singleLine="true"
             android:hint="@string/str_hint_send_message"
             android:paddingLeft="10dp"
+            android:singleLine="true"
             android:textSize="18sp" />
     </RelativeLayout>
 
@@ -63,13 +58,12 @@
         android:layout_height="fill_parent"
         android:layout_above="@id/rl_chat_bottom"
         android:layout_below="@id/rl_chat_topbar"
+        android:alpha="0.8"
+        android:background="@color/grey"
         android:cacheColorHint="#0000"
         android:divider="@null"
         android:dividerHeight="5dp"
-        android:scrollbarStyle="outsideOverlay" 
-        android:background="@color/grey"
-        android:alpha="0.8"
-        >
+        android:scrollbarStyle="outsideOverlay" >
     </ListView>
 
 </RelativeLayout>

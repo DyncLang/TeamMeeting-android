@@ -5,7 +5,7 @@ Submitted for the first time.Implement initialization, create a conference room,
 
 
 # 开发修改记录
-##### 2015年12月16日20:44:42
+#####  2015年12月17日20:56:06
 1. 增加极光推送 （自己验证）
 2. 修改`listView`移动动画
 3. `splash`引导页动画

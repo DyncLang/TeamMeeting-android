@@ -6,7 +6,7 @@
     <string name="action_settings">Settings</string>
     <string name="loading">正在登录请稍候..</string>
     <string name="str_no_internet_connection">无网络连接</string>
-	<string name="str_no_internet_tip">我们遇到了一些麻烦,因为你的设备没有连接到互联网</string>
+    <string name="str_no_internet_tip">我们遇到了一些麻烦,因为你的设备没有连接到互联网</string>
     <string name="str_connect_internet">连接网络</string>
     <string name="str_content_empty">您还没有填写信息呢...</string>
     <!-- 主界面 -->
@@ -33,5 +33,7 @@
     <string name="str_hint_send_message">发送消息</string>
     <string name="str_send_message">发送</string>
     <string name="title_activity_share">ShareActivity</string>
+    <string name="title_activity_push_set">PushSetActivity</string>
+    <string name="title_activity_test">TestActivity</string>
 
 </resources>

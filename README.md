@@ -17,13 +17,15 @@ Submitted for the first time.Implement initialization, create a conference room,
 
 #### 2015年12月20日17:39:38
 
+######增加
 1. `SweetAlertDialogLibrary`更友好的提示动画
 2. 自定义`RoomControls`控件
 
+######改进
 1. 创建房间`ListViwe`滚动动画冲突
 2. 聊天界面动画以及配色
 3. 通话页面**横屏切换**隐藏按钮无法显示问题。（`GlSufaceView`重绘图层覆盖）
-4. `anims`动画完善。 
+4. `Anmis`动画完善。
 
 
 

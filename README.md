@@ -15,7 +15,7 @@ Submitted for the first time.Implement initialization, create a conference room,
 2. `NetWork`代码抽取封装
 3. 修改验证 `post` 共计`20`条请求封装。(服务器验证成功)
 
-#### 2015年12月20日17:39:38
+##### 2015年12月20日17:39:38
 
 ######增加
 1. `SweetAlertDialogLibrary`更友好的提示动画

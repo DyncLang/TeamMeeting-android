@@ -15,7 +15,6 @@ Submitted for the first time.Implement initialization, create a conference room,
 2. `NetWork`代码抽取封装
 3. 修改验证 `post` 共计`20`条请求封装。(服务器验证成功)
 
-
 #### 2015年12月20日17:39:38
 
 **增加**
@@ -26,4 +25,7 @@ Submitted for the first time.Implement initialization, create a conference room,
 1. 创建房间`ListViwe`滚动动画冲突
 2. 聊天界面动画以及配色
 3. 通话页面**横屏切换**隐藏按钮无法显示问题。（`GlSufaceView`重绘图层覆盖）
-4. `Anmis`动画完善。 
+4. `anims`动画完善。 
+
+
+

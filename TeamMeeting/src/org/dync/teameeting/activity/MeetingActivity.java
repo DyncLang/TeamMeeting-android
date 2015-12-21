@@ -74,7 +74,7 @@ import com.ypy.eventbus.EventBus;
  *         2015-12-11 5:02:32
  */
 
-public class MeetingActivity extends Activity implements JniceEvent, RtkPPClientEvents
+public class MeetingActivity extends BaseAcitvity implements JniceEvent, RtkPPClientEvents
 {
 	// Local preview screen position before call is connected.
 	private static final boolean mDebug = TeamMeetingApp.mIsDebug;
@@ -181,7 +181,6 @@ public class MeetingActivity extends Activity implements JniceEvent, RtkPPClient
 	protected void onCreate(Bundle savedInstanceState)
 	{
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_meeting);
 
 		Intent intent = getIntent();
 		mMeetingId = intent.getStringExtra("meetingId");
@@ -196,6 +195,7 @@ public class MeetingActivity extends Activity implements JniceEvent, RtkPPClient
 		// 8088
 		mRoomID = "123";
 		initView();
+
 	}
 
 	/* Init UI */
@@ -416,6 +416,7 @@ public class MeetingActivity extends Activity implements JniceEvent, RtkPPClient
 				break;
 
 			case R.id.meeting_camera:
+				mRtkClient.setLocalVideoDisabled();
 
 				if (!mMeetingCameraOffFlag)
 				{
@@ -487,6 +488,7 @@ public class MeetingActivity extends Activity implements JniceEvent, RtkPPClient
 				mMeetingCameraFlag = true;
 				break;
 			case R.id.imgbtn_chat:
+				stopShowMessage();
 				mChatLayout.setVisibility(View.VISIBLE);
 				// mTopbarLayout.setVisibility(View.GONE);
 				// mControlLayout.setVisibility(View.GONE);
@@ -496,6 +498,7 @@ public class MeetingActivity extends Activity implements JniceEvent, RtkPPClient
 				sendMessageChat();
 				break;
 			case R.id.imgbtn_back:
+				startShowMessage();
 				mChatLayout.setVisibility(View.GONE);
 				// mTopbarLayout.setVisibility(View.VISIBLE);
 				// mControlLayout.setVisibility(View.VISIBLE);

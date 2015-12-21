@@ -24,6 +24,8 @@ import android.view.animation.AnimationUtils;
 import android.view.animation.ScaleAnimation;
 import android.widget.ImageView;
 
+import cn.jpush.android.api.JPushInterface;
+
 import com.ypy.eventbus.EventBus;
 
 /**
@@ -60,7 +62,7 @@ public class StartFlashActivity extends Activity
 	{
 		EventBus.getDefault().register(this);
 		mNetWork = new NetWork(this);
-		
+
 		Animation loadAnimation = AnimationUtils.loadAnimation(this, R.anim.splash);
 		loadAnimation.setAnimationListener(mAnimationListener);
 		mView.setAnimation(loadAnimation);
@@ -168,8 +170,8 @@ public class StartFlashActivity extends Activity
 	@Override
 	protected void onPause()
 	{
-		// TODO Auto-generated method stub
 		super.onPause();
+		JPushInterface.onPause(this);
 	}
 
 	@Override
@@ -177,6 +179,7 @@ public class StartFlashActivity extends Activity
 	{
 		// TODO Auto-generated method stub
 		super.onResume();
+		JPushInterface.onResume(this);
 	}
 
 	/**

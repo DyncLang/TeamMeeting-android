@@ -44,6 +44,7 @@ Submitted for the first time.Implement initialization, create a conference room,
 1. `短信` `微信`分享加入会议连接。
 2. 网络异常处理
 3. 会议提醒控制控件
+
 ##### 修改
 1. `复制` `网络异常`提示对话框动画（第三方）
 

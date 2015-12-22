@@ -39,10 +39,13 @@ Submitted for the first time.Implement initialization, create a conference room,
 4. `Anmis`动画完善。
 
 ##### 2015年12月21日20:40:29
+
 ###### 增加
 1. 视频界面事实消息 **弹幕**功能；(**原创**)
+ 
+
 ###### 优化
 1. 实时聊天界面`bug`
 2. 优化页面跳转动画
-![Sample-iamge](/image/chat.jpg)
+![Sample-iamge](/image/chat01.jpg)
 

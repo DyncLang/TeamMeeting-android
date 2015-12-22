@@ -47,5 +47,7 @@ Submitted for the first time.Implement initialization, create a conference room,
 ###### 优化
 1. 实时聊天界面`bug`
 2. 优化页面跳转动画
+ 
+
 ![Sample-iamge](/image/chat01.jpg)
 

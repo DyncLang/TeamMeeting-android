@@ -48,3 +48,8 @@ Submitted for the first time.Implement initialization, create a conference room,
 ##### 修改
 1. `复制` `网络异常`提示对话框动画（第三方）
 
+##### 2015年12月24日17:10:29
+1. Pad 侧滑出现聊天菜单。
+2. 不同界面平板适配 
+
+
